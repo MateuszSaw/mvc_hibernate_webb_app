@@ -1,10 +1,10 @@
-package com.customer_tracker.spring_demo.dao;
+package com.customer_tracker.spring_demo.service;
 
 import com.customer_tracker.spring_demo.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
     List<Customer> getCustomers();
 
