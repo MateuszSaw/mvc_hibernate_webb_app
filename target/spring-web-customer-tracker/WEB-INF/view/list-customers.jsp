@@ -26,7 +26,11 @@
 			   onclick="window.location.href='showFormForAdd' ; return false;"
 			   class="add-button"
 		/>
-
+		<form:form action="search" method="get">
+			Search customer:
+			<input type="text" name="theSearchName" />
+			<input type="submit" value="Search" class="add-button" />
+		</form:form>
 
 		<table>
 			<tr>
